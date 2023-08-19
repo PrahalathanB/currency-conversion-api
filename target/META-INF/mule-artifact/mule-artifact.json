@@ -1,0 +1,26 @@
+{
+  "configs": [
+    "test.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "ec8e6ac6-c928-446a-8fe7-cd8a31db96ed:test:1.0.2",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "api/test.raml",
+        "application-types.xml",
+        "log4j2.xml",
+        "test.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
